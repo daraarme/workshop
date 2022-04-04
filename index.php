@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nano Folio - Simple HTML Template</title>
+	<title>Website Workshop AS</title>
 	<link rel="stylesheet" href="fontawesome/css/all.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="css/tooplate-style.css" rel="stylesheet">
@@ -29,7 +29,7 @@
 <body>
 	<div class="tm-container-fluid">
         <!-- code here -->
-        <section class="menu" id="haha">
+        <section class="menu" id="haha" style=">
             <a href="#">Home</a>
             <a href="#">About</a>
         </section>
@@ -37,15 +37,40 @@
         <section class="tm-bgcolor-2 tm-p-50 mt-20" style="border-radius: 15px; margin-bottom: 20px;">
             <h1>
                 <?php
-                    $pageTitle = 'Adi Sanggoro Keren';
-                    echo $pageTitle.' - Banget';
+                    $pageTitle = 'Adi Sanggoro ';
+                    echo $pageTitle.' - Quality School A Place To Be';
                 ?>
             </h1>
             <?php
                 $x = 1;
-                while($x <=5) {
+                while($x <=1) {
             ?>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi amet corporis recusandae repudiandae eos, eligendi ducimus tenetur suscipit enim beatae aliquam officia veniam ex hic distinctio accusantium, voluptatem dicta?</p>
+				<h3>Jurusan Smk Adi Sanggoro</h3>
+				<ol>
+					<li>Geomatika</li>
+					<li>Rekayasa Perangkat Lunak</li>
+					<li>Teknik Komputer & Jaringan</li>
+					<li>Geologi Pertambangan</li>
+					<li>Teknik Mekatron</li>
+					<li>Tata Busana</li>
+				</ol>
+				<h3>Ekstrakulikuler</h3>
+				<ol>
+					<li>Reisas(Rohis)</li>
+					<li>Pramuka</li>
+					<li>Futsal</li>
+					<li>Karate</li>
+					<li>Pencak Silat</li>
+					<li>Bandung Karate Club</li>
+				</ol>
+				<h3>Fasilitas</h3>
+				<ol>
+					<li>Laboratorium Komputer</li>
+					<li>Garment</li>
+					<li>HotSpot Area</li>
+				</ol>
+				
+                
             <?php
                     $x++;
                 }
@@ -63,8 +88,8 @@
 				<h2>About Us</h2>
 			</div>
 			<div class="tm-about-text">
-				<p class="tm-mb-40">Nano Folio is simple HTML template with a minimal very light-weight custom CSS file. Max content width is 940 pixels. You can easily change the width or any part in this template. Gallery comes with a pop-up image and simple categories.</p>
-				<p class="tm-mb-0">Please support Tooplate website by telling your friends about it. That is going to be very helpful for us. Feel free to <a rel="nofollow" href="https://www.tooplate.com/contact" target="_blank">message us</a> via email or live chat if you have anything to say.</p>
+				<p class="tm-mb-40">Visi : Pendidikan yang membentuk insan, mandiri, cerdas, terampil, professional, beriman dan bertaqwa.</p>
+				<p class="tm-mb-0">Misi : Mencetak tenaga tingkat menengah yang mampu bekerja mandiri, memiliki pengetahuan, keterampilan dan professional sesuai dengan bidang study yang ditempuh.</p>
 			</div>
 		</section>
 
@@ -75,11 +100,11 @@
 			</div>
 			<div class="tm-contact-info">
 				<address class="tm-mb-30">
-					120 Curabitur sed tortor ultrices,
-					congue odio eget, posuere urna.
-					Praesent at rhoncus 10680
+					Jl. Sengked No. 1 kampus IPB Dramaga 
+					Bogor 16680
+					Email. info_smk@adisanggoro.sch.id
 				</address>
-				<div class="tm-text-white tm-mb-40">Tel: <a href="tel:0100200340" class="tm-link-white">010-020-0340</a></div>
+				<div class="tm-text-white tm-mb-40">Tel: <a href="tel:0100200340" class="tm-link-white">0251 8620219</a></div>
 				<div class="tm-flex">
 					<a href="https://facebook.com" class="tm-social-link"><i class="fab fa-facebook"></i></a>
 					<a href="https://twitter.com" class="tm-social-link"><i class="fab fa-twitter"></i></a>
